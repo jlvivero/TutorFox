@@ -92,6 +92,24 @@ a {
   .page-nav {
     padding: 1rem 1rem; } }
 
+.page-title{
+  color: #fff;
+  text-align: center;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 64em) {
+  .page-title {
+    padding: 0rem 0rem; }
+  }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-title {
+    padding: 0rem 0rem; } }
+
+@media screen and (max-width: 42em) {
+  .page-title {
+    padding: 0rem 0rem; } }
 
 .page-header {
   color: #fff;
